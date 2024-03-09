@@ -24,3 +24,15 @@ a {
     top:120px
     
 }
+#homepage {
+    position:relative;
+    left:0px;
+}
+#github {
+    position:relative;
+    left:10px;
+}
+#project {
+    position:relative;
+    left:20px;
+}
