@@ -6,6 +6,8 @@
 
 body {
     font-family: "JetBrains Mono";
+    position: absolute;
+    margin:20px;
 }
 
 
@@ -24,6 +26,10 @@ a {
     top:120px
     
 }
+#bar {
+    position:relative;
+    top:10px;
+}
 #homepage {
     position:relative;
     left:0px;
@@ -35,4 +41,12 @@ a {
 #project {
     position:relative;
     left:20px;
+}
+#main {
+    position:relative;
+    top:20px;
+}
+#title {
+    position:relative;
+    left:50%;
 }
