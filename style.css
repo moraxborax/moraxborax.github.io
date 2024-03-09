@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "JetBrains Mono", sans-serif;
+    src: url('./JetBrainsMono[wght].ttf') format("opentype");
+
+}
+
+
+p {
+    font-family: "JetBrains Mono";
+}    
+
+h1 {
+    color: #30528b;
+    font-family: "JetBrains Mono";
+}
+a {
+    color: #00996b;
+}
+h3 {
+    font-family: "JetBrains Mono";
+}
