@@ -1,11 +1,11 @@
 @font-face {
-    font-family: "JetBrains Mono", sans-serif;
-    src: url('JetBrainsMono-Regular.woff2') format("woff2");
+    font-family: "JetBrains Mono";
+    src: url('./JetBrainsMono-Regular.woff2');
 
 }
 
 body {
-    font-family: "JetBrains Mono";
+    font-family: "JetBrains Mono", monospace;
     position: absolute;
     margin:20px;
 }
