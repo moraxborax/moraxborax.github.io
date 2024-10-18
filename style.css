@@ -33,7 +33,8 @@ h1 {
     left:0px;
     right:0px;
     a {
-        color: white;
+        color: #eff2ff;
+        text-decoration:none;
     }
     
 }
