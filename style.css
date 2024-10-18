@@ -27,7 +27,7 @@ a {
     
 }
 .bar {
-    position:relative;
+    position:fixed;
     top:0px;
     background-color: #1395EE;
     color:white;
@@ -52,7 +52,7 @@ a {
 }
 .main {
     position:relative;
-    top:25px;
+    top:100px;
     left:25px
 }
 .title {
