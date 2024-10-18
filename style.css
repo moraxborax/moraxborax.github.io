@@ -32,7 +32,8 @@ a {
     background-color: #1395EE;
     color:white;
     padding:20px;
-    width:100%
+    left:0px;
+    right:0px;
 }
 #homepage {
     position:relative;
