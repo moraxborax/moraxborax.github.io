@@ -15,9 +15,7 @@ h1 {
     color: #30528b;
     
 }
-a {
-    color: #bbeeff;
-}
+
 
 .notice {
 
@@ -30,10 +28,14 @@ a {
     position:fixed;
     top:0px;
     background-color: #1395EE;
-    color:white;
+    
     padding:20px;
     left:0px;
     right:0px;
+    a {
+        color: white;
+    }
+    
 }
 #homepage {
     position:relative;
@@ -54,7 +56,10 @@ a {
 .main {
     position:relative;
     top:100px;
-    left:25px
+    left:25px;
+    a {
+        color: #25ce96;
+    }
 }
 .title {
     position:relative;
