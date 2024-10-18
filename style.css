@@ -7,7 +7,7 @@
 body {
     font-family: "JetBrains Mono", monospace;
     position: absolute;
-    margin:20px;
+    margin:0px;
 }
 
 
@@ -16,19 +16,22 @@ h1 {
     
 }
 a {
-    color: #00996b;
+    color: #bbeeff;
 }
 
-#notice {
+.notice {
 
     position:fixed;
     right: 100px;
     top:120px
     
 }
-#bar {
+.bar {
     position:relative;
-    top:10px;
+    top:0px;
+    background-color: #1395EE;
+    color:white;
+    padding:20px;
 }
 #homepage {
     position:relative;
@@ -46,11 +49,12 @@ a {
     position: relative;
     left: 30px;
 }
-#main {
+.main {
     position:relative;
-    top:20px;
+    top:25px;
+    left:25px
 }
-#title {
+.title {
     position:relative;
     left:50%;
 }
