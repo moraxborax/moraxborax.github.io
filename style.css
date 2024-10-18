@@ -42,6 +42,10 @@ a {
     position:relative;
     left:20px;
 }
+#portfolio {
+    position: relative;
+    left: 30px;
+}
 #main {
     position:relative;
     top:20px;
