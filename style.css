@@ -8,13 +8,15 @@ body {
     font-family: "JetBrains Mono", monospace;
     position: absolute;
     margin:0px;
-}
-
-
-h1 {
-    color: #30528b;
+    .title {
+        color: #30528b;
+    };
+    color: black;
     
 }
+
+
+
 
 
 .notice {
@@ -27,7 +29,9 @@ h1 {
 .bar {
     position:fixed;
     top:0px;
+    
     background-color: #1395EE;
+    
     
     padding:20px;
     left:0px;
@@ -54,6 +58,10 @@ h1 {
     position: relative;
     left: 30px;
 }
+#darkmode {
+    position: fixed;
+    right:10px;
+}
 .main {
     position:relative;
     top:100px;
@@ -66,3 +74,24 @@ h1 {
     position:relative;
     left:50%;
 }
+
+body.dark {
+    background-color: #333333;
+    color: white;
+    .title {
+        color: #2464d4
+    }
+    .bar {
+        background-color: #0b588b;
+        color: white
+    }
+    
+}
+#dmbutton {
+    width:36px;
+    position:fixed;
+    right: 10px;
+    top: 12px;
+}
+
+
