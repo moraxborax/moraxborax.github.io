@@ -18,9 +18,12 @@ body {
     };
     color: black;
     
+    
 }
 
-
+#dmbutton {
+    content:url("./Button/Light\ Mode.png")
+}
 
 
 
@@ -89,6 +92,9 @@ body.dark {
     .bar {
         background-color: #0b588b;
         color: white
+    }
+    #dmbutton {
+        content:url('./Button/Dark\ Mode.png')
     }
     
 }

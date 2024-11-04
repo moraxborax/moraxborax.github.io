@@ -9,8 +9,8 @@ function toggleMode() {
     } else {
       title.classList.remove('dark-title');
     title.classList.add('light-title');*/
-    button = document.getElementById("dmbutton")
+    //button = document.getElementById("dmbutton")
     
-    button.src = button.src.endsWith("./Button/Light Mode.png") ? "./Button/Dark Mode.png" : "./Button/Light Mode.png";
+    //button.src = button.src.endsWith("./Button/Light Mode.png") ? "./Button/Dark Mode.png" : "./Button/Light Mode.png";
 }
     
