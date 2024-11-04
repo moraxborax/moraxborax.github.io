@@ -1,6 +1,10 @@
 function toggleMode() {
-    document.body.classList.toggle('dark');
-    document.body.classList.toggle('light');
+    var mode=true;
+    mode=false;
+    if(mode == true)
+      document.body.classList.toggle('dark');
+    else
+      document.body.classList.toggle('light');
     
     /*const title = document.getElementsByClassName('title');
     if (document.body.classList.contains('dark')) {
