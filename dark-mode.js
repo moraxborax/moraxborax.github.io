@@ -1,20 +1,18 @@
+let isDarkMode = false;
+
 function toggleMode() {
-    var mode=true;
-    mode=false;
-    if(mode == true)
-      document.body.classList.toggle('dark');
-    else
-      document.body.classList.toggle('light');
+    isDarkMode = !isDarkMode;
+    document.body.classList.toggle('dark');
     
-    /*const title = document.getElementsByClassName('title');
-    if (document.body.classList.contains('dark')) {
-      title.classList.remove('light-title');
-      title.classList.add('dark-title');
+    const button = document.getElementById("dmbutton");
+    if (isDarkMode) {
+        button.src = "./Button/Dark Mode.png";
     } else {
-      title.classList.remove('dark-title');
-    title.classList.add('light-title');*/
-    //button = document.getElementById("dmbutton")
-    
-    //button.src = button.src.endsWith("./Button/Light Mode.png") ? "./Button/Dark Mode.png" : "./Button/Light Mode.png";
+        button.src = "./Button/Light Mode.png";
+    }
 }
-    
+
+// Initialize dark mode
+document.addEventListener('DOMContentLoaded', function() {
+    toggleMode(); // Start with dark mode
+});

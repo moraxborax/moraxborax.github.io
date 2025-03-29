@@ -22,10 +22,12 @@ body {
 }
 
 #dmbutton {
-    content:url("./Button/Light\ Mode.png")
+    content: url("./Button/Dark Mode.png");
+    width: 36px;
+    position: fixed;
+    right: 10px;
+    top: 12px;
 }
-
-
 
 .notice {
 
@@ -94,15 +96,8 @@ body.dark {
         color: white
     }
     #dmbutton {
-        content:url('./Button/Dark\ Mode.png')
+        content: url('./Button/Light Mode.png')
     }
-    
-}
-#dmbutton {
-    width:36px;
-    position:fixed;
-    right: 10px;
-    top: 12px;
 }
 
 
