@@ -1,3 +1,5 @@
+@import url('./fira_code_v6.2/fira_code.css');
+
 @font-face {
     font-family: "JetBrains Mono";
     src: url('./JetBrainsMono-Regular.woff2') format("woff2");
@@ -8,6 +10,7 @@
     src: url('./Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf') format("truetype");
     
 }
+    
 
 body {
     font-family: "JetBrains Mono", monospace;
@@ -82,6 +85,7 @@ body {
     }
 }
 .title {
+    font-family: "JetBrains Mono", monospace;
     position:relative;
     left:50%;
 }
@@ -106,9 +110,13 @@ body.dark {
     border: 1px solid #222;
     border-radius: 4px;
     padding: 15px;
-    font-family: 'JetBrains Mono';
+    font-family: 'JetBrains Mono', monospace;
     white-space: pre;
     overflow-x: auto;
+}
+
+code, pre {
+    font-family: 'JetBrains Mono', monospace;
 }
 
 
