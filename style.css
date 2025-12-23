@@ -14,14 +14,17 @@
 
 body {
     font-family: "JetBrains Mono", monospace;
-    position: absolute;
-    margin:0px;
+    position: static;
+    margin: 0;
+    padding: 0;
+    padding-top: 80px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: black;
     .title {
         color: #30528b;
     };
-    color: black;
-    
-    
 }
 
 #dmbutton {
@@ -35,8 +38,13 @@ body {
 .notice {
 
     position:fixed;
-    right: 100px;
-    top:120px
+    width:200px;
+    right: 50px;
+    top:120px;
+    h2 {
+        text-align: center;
+    }
+    
     
 }
 .bar {
@@ -56,6 +64,17 @@ body {
     z-index: 4096;
     
 }
+
+.footer {
+    position: static;
+    margin-top: auto;
+    padding: 20px;
+    background-color: #1395EE;
+    left: 0px;
+    right: 0px;
+    color: #eff2ff;
+    z-index: 4096;
+}
 #homepage {
     position:relative;
     left:0px;
@@ -72,17 +91,25 @@ body {
     position: relative;
     left: 30px;
 }
+#docs {
+    position:relative;
+    left: 30px;
+}
 #darkmode {
     position: fixed;
     right:10px;
 }
+
+
 .main {
     position:relative;
-    top:100px;
-    left:25px;
+    width:800px;
+    margin: 0 0 0 50px;
+    flex: 1;
     a {
         color: #25ce96;
     }
+    
 }
 .title {
     font-family: "JetBrains Mono", monospace;
@@ -100,6 +127,10 @@ body.dark {
         background-color: #0b588b;
         color: white
     }
+    .footer {
+        background-color: #0b588b;
+        color: white
+    }
     #dmbutton {
         content: url('./Button/Light Mode.png')
     }
@@ -114,6 +145,8 @@ body.dark {
     white-space: pre;
     overflow-x: auto;
 }
+
+
 
 code, pre {
     font-family: 'JetBrains Mono', monospace;

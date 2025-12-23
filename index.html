@@ -13,14 +13,14 @@
         <!--<a href=/time.html>time</a>-->
         
         <div class="bar">
-            <span id="homepage"><a href = "https://moraxborax.github.io/index.html">homepage</a></span>
+            <span id="homepage"><a href = "./index.html">homepage</a></span>
             <span id="github" ><a href = "https://www.github.com/moraxborax">my GitHub</a></span>
-            <span id="project"><a href = "https://github.com/moraxborax/moraxborax.github.io">repository of this project</a></span>   
-            <span id="portfolio"><a href="./portfolio.html">My portfolio</a></span>
+            <span id="project"><a href = "https://github.com/moraxborax/moraxborax.github.io">repository of this project</a></span> 
+            <span id="docs"><a href = "moraxborax.github.io/docs">docs</a></span>   
             <input type="image" onclick="toggleMode()"  id="dmbutton" /><!--Toggle Mode--><!--src="./Button/Light Mode.png"-->
         </div>
         <!-- dark mode toggler-->
-        <script src="./dark-mode.js"></script>
+        <script src="./js/dark-mode.js"></script>
   
 
         
@@ -28,7 +28,10 @@
         <h1 class="title">MY WEBSITE</h1>
         
 
-        <p>still under development</p>
+        <script src="https://cdn.jsdelivr.net/npm/markdown-it/dist/markdown-it.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/dompurify/dist/purify.min.js"></script>
+        <script src="./js/md_fetch.js"></script>
+        <div id="content"></div>
         <div class="notice">
         <h2>NOTICE</h2>
             <div id="changelog">
@@ -42,6 +45,10 @@
             </div>
         </div>
         </div>
+        <div class="footer">
+            <p>made with love by myself</p>
+        </div>
+
         
         
         
