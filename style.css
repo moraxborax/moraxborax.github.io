@@ -95,6 +95,14 @@ body {
     position:relative;
     left: 30px;
 }
+#reddit {
+    position: relative;
+    left:40px;
+}
+#twitter {
+    position: relative;
+    left:50px;
+}
 #darkmode {
     position: fixed;
     right:10px;
